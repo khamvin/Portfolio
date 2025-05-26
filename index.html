@@ -14,9 +14,9 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="https://drive.google.com/file/d/1qqO7OND4EQHUrL8AV0H2o2M7LmAVSYoB/view"
-        class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i
-            class="ti-shift-left-alt"></i>Load my resume</a>
+    <!--<a href="https://drive.google.com/file/d/1qqO7OND4EQHUrL8AV0H2o2M7LmAVSYoB/view"-->
+    <!--class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i>Load
+    my resume</a>-->
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
@@ -34,7 +34,7 @@
             <div class="header-content">
                 <h4 class="header-subtitle">Hello, I am</h4>
                 <h1 class="header-title">Khamvin</h1>
-                <h6 class="header-mono">Network Infra | Data Analytis</h6>
+                <h6 class="header-mono">Network Infra | Data Analytic</h6>
                 <button onClick="window.print()" class="btn btn-primary btn-rounded"><i
                         class="ti-printer pr-2"></i>Print My Portfolio</button>
             </div>
@@ -63,7 +63,7 @@
                     <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Khamvin</h5>
-                        <div class="brand-subtitle">Network Infra | Data Analytis</div>
+                        <div class="brand-subtitle">Information Technology Research and Policy Division</div>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
@@ -89,11 +89,10 @@
                 <h3 class="font-weight-light">Who am I ?</h3>
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Network Infra / Data Analytis </h5>
-                <p class="mt-20">My current working @ BANK OF THE LAO PDR </p>
+                <p class="mt-20">My current working @ BANK OF THE LAO PDR @Information Technology Research and Policy Division </p>
                 <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link"
-                            href="##https://drive.google.com/file/d/1qqO7OND4EQHUrL8AV0H2o2M7LmAVSYoB/view"><i
-                                class="ti-download" aria-hidden="true"></i><i class="load my CV"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-download"
+                                aria-hidden="true"></i><i class="load my CV"></i></a></li>
                 </ul>
             </div>
 
@@ -106,7 +105,7 @@
                     <li><span>Email</span> : khamvinh@me.com</li>
                     <!--<li><span>Phone</span> : + (856) 20-22222158</li>-->
                     <!--<li><span>Skype</span> : vinh-2010 </li>-->
-                   <!-- <li><span>Address</span> : Vientiane, Phiawat 100,Rue Simeuang Road</li>-->
+                    <!-- <li><span>Address</span> : Vientiane, Phiawat 100,Rue Simeuang Road</li>-->
                 </ul>
                 <ul class="social-icons pt-3">
                     <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook"
@@ -168,6 +167,27 @@
         </div>
     </div>
 
+<script>
+// Disable right-click
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    alert('No Permission for you.');
+});
+
+// Disable keyboard shortcuts (Ctrl+U, Ctrl+Shift+I, F12)
+document.addEventListener('keydown', function(e) {
+    if (
+        e.ctrlKey && (e.key === 'u' || e.key === 'U') || // Ctrl+U
+        e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i') || // Ctrl+Shift+I
+        e.key === 'F12' // F12 (DevTools)
+    ) {
+        e.preventDefault();
+        alert('Viewing page source is disabled.');
+    }
+});
+</script>
+
+
     <!--Resume Section-->
     <section class="section" id="resume">
         <div class="container">
@@ -191,7 +211,7 @@
                             <P class="subtitle">Network Infar and Data Center , Core-Banking, Marketing Deparment
                                 Planning Promotion, Swot data analysis, Business Data Analytics. </P>
                             <hr>
-                            <h6 class="title text-danger">2018 - 2019</h6>
+                            <h6 class="title text-danger">2018 - Present</h6>
                             <P>@Quest College Teacher</P>
                             <P class="subtitle">Teaching Network, Windows Server, Linux Server.</P>
                             <hr>
@@ -452,8 +472,152 @@
                     <a href="#" data-filter=".web">
                         DataAnalyst
                     </a>
+                    <!--<a href="#" data-filter=".training">
+                Training-->
+                    </a>
                 </div>
                 <div class="portfolio-container">
+                    
+                    <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-4.jpg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Training</h6>
+                                    <p class="subtitle">BOL-GEN1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-5.jpg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Training</h6>
+                                    <p class="subtitle">BOL-GEN1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-6.jpeg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Launch Project</h6>
+                                    <p class="subtitle">CMS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-7jpeg.jpeg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Training with IMF</h6>
+                                    <p class="subtitle">Finacial Risk Analysis </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-8jpeg.jpeg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Training with IMF</h6>
+                                    <p class="subtitle">Finacial Risk Analysis </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-10.jpeg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-10.jpeg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ASEAN CRISP 10th</h6>
+                                    <p class="subtitle">Cyber Security Resilience and Information (CRISP) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-9jpeg.jpeg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-9jpeg.jpeg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ASEAN CRISP 10th</h6>
+                                    <p class="subtitle">Cyber Security Resilience and Information (CRISP) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="col-md-6 col-lg-4 Experience new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-11.jpeg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-11.jpeg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Cyber meeting</h6>
+                                    <p class="subtitle">Cyber Security Sharing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Trainer </h6>
+                                    <p class="subtitle">Finished Window Server Final Test YEAR2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">DataAnalyst</h6>
+                                    <p class="subtitle">Data Analyst INFOR CHAT Regiter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-md-6 col-lg-4 Experience new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/nw-1.jpg" class="img-fluid"
@@ -467,6 +631,7 @@
                             </div>
                         </div>
                     </div>
+
 
                     <div class="col-md-6 col-lg-4 Experience new">
                         <div class="portfolio-item">
@@ -482,32 +647,6 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 web new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/web-2.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">DataAnalyst</h6>
-                                    <p class="subtitle">Data Analyst INFOR CHAT Regiter</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 advertising new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">Trainer </h6>
-                                    <p class="subtitle">Finished Window Server Final Test YEAR2</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-6 col-lg-4 web">
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-4.jpg" class="img-fluid"
@@ -515,12 +654,39 @@
                             <div class="content-holder">
                                 <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
                                 <div class="text-holder">
-                                    <h6 class="title">DataAnalyst</h6>
-                                    <p class="subtitle">Data Analyst INFOR Transfer income </p>
+                                    <h6 class="title">Data analytics</h6>
+                                    <p class="subtitle">Data Analytics INFOR Transfer income </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!--<div class="col-md-6 col-lg-4 training new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-7jpeg.jpeg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-7jpeg.jpeg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Training with IMF </h6>
+                                    <p class="subtitle">Finacial Risk Analysis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <!--<div class="col-md-6 col-lg-4 training new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/nw-5.jpg" class="img-fluid"
+                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/nw-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Training</h6>
+                                    <p class="subtitle">BOL-GEN1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
 
                     <div class="col-md-6 col-lg-4 advertising">
                         <div class="portfolio-item">
